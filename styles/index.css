@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Poppins:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Montserrat;
+}
+html{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+body{
+
+    background-color: #000000
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+}
+h2{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+h3{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem;
+}
+p{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin: 2.5rem;
+}
+a{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*navbar*/
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin: 0 2rem;
+}
+.article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+    height: 50%;
+}
+.fondo{
+    display: flex;
+    border-radius: 2rem;
+}
+.box__titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    width: 25%;
+}
+.titulo__dos{
+    color: #950101;
+
+}
+.btn{
+    color: red;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 2rem;
+    width: 15rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.article__dos{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+.article__tres{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.logos__finales{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.logo__final{
+    display: flex;
+    background-color: white;
+    border-radius: 2rem;
+    width: 5rem;
+    height: 5rem;
+}
+.logo__final2{
+    position: relative;
+    top: 0.5rem;
+    left: -1.8rem;
+}
+.videos{
+    width: 35%;
+}
