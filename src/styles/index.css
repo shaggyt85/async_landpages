@@ -98,9 +98,11 @@ a{
 }
 .article__dos{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
+    justify-content: space-around;
     margin: 2rem;
+    flex-wrap: wrap;
 }
 .article__tres{
     display: flex;
@@ -127,4 +129,7 @@ a{
     position: relative;
     top: 0.5rem;
     left: -1.8rem;
+}
+.videos{
+    width: 35%;
 }
